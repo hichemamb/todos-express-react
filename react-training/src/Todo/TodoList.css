@@ -1,0 +1,71 @@
+input{
+    border-radius:10px;
+    border:1px solid dodgerblue;
+    outline-style:none;
+    width:150px;
+    height:3px;
+    padding:10px;
+    margin-bottom:5px;
+}
+
+h1{
+    color:dodgerblue;
+    font-size:25px;
+}
+
+button{
+    height:25px;
+    border-radius:10px;
+    border:1px solid dodgerblue;
+    outline-style:none;
+    background-color: dodgerblue;
+    color: white;
+}
+
+button:hover{
+    background:white;
+    color:dodgerblue;
+}
+
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform : translate(-50%,-50%);
+}
+
+.list{
+    margin-top:10px;
+}
+
+.item-container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.item-leftOptions{
+    display:flex;
+    align-items:center;
+}
+
+.item-rightOptions{
+    display:flex;
+    align-items:center;
+}
+
+.item-name{
+    margin-left:10px;
+}
+
+.item-button{
+    margin-left:10px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+}
+
+.form-button{
+    margin-left:10px;
+}
